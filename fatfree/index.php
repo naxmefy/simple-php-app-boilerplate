@@ -1,5 +1,5 @@
 <?php
-
+die();
 $f3=require('lib/base.php');
 
 $f3->set('DEBUG',1);
