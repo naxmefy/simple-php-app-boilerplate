@@ -4,7 +4,6 @@ ini_set('display_errors', '1');
 
 $f3 = require('fatfree/lib/base.php');
 
-
 $f3->set('ONERROR',
   function($f3) {
     
@@ -32,13 +31,6 @@ $f3->set('DEBUG', 3);
 # load app and app modules
 $f3->set('AUTOLOAD','app/;app/modules/');
 $f3->config('app/setup.cfg');
-
-$x = new helper\controller\Admin();
-var_dump($x);
-echo "<hr>";
-
-
-
 
 /*
 $f3->route('GET /',

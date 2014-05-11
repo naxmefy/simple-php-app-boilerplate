@@ -5,7 +5,8 @@ use helper\controller;
 class User extends Base{
   function __construct() {
     parent::__construct();
-    echo "User<br>";
+
+    //Init whatever u need
   }
 }
 
